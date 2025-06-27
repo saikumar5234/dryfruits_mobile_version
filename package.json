@@ -1,0 +1,47 @@
+{
+  "name": "mobile-dryfruits",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-navigation/native": "^7.1.14",
+    "@react-navigation/stack": "^6.3.20",
+    "d3-shape": "^3.2.0",
+    "expo": "~53.0.12",
+    "expo-constants": "~15.4.5",
+    "expo-font": "~11.10.2",
+    "expo-haptics": "^14.1.4",
+    "expo-image-picker": "^16.1.4",
+    "expo-linear-gradient": "~12.7.1",
+    "expo-status-bar": "~2.2.3",
+    "firebase": "^10.14.1",
+    "i18next": "^25.2.1",
+    "is-arrayish": "^0.3.2",
+    "react": "19.0.0",
+    "react-i18next": "^15.5.3",
+    "react-is": "^19.1.0",
+    "react-native": "0.79.4",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-paper": "^5.14.5",
+    "react-native-ratings": "^8.1.0",
+    "react-native-safe-area-context": "^5.5.0",
+    "react-native-screens": "^4.11.1",
+    "react-native-svg": "^15.12.0",
+    "react-native-svg-charts": "^5.4.0",
+    "simple-swizzle": "^0.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
